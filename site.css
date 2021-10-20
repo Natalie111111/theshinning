@@ -1,99 +1,150 @@
 body {
-
-  align-items: center;
   margin: 0;
 }
 
-svg ｛
-width:100%;
+svg {
+  width: 100%;
+}
 
-｝
-.st2{
+.st2 {
+  fill: #A7A987;
   animation: st2-color-change 6s infinite;
 }
+
 @keyframes st2-color-change {
   0%{
-    fill:#F8C3CD;
+    fill: #A7A987;
   }
-  33%{
-    fill:#E6A0C4;;
+
+  24% {
+    fill: #A7A987;
   }
-  66%{
-    fill:#FFF;
+
+  25%{
+    fill: #7294D4;
   }
+
+  49%{
+    fill: #7294D4;
+  }
+
+  50%{
+    fill: #C6CDF7;
+  }
+
+  74%{
+    fill: #C6CDF7;
+  }
+
+  75%{
+    fill: #425050;
+  }
+
+  99%{
+    fill: #425050;
+  }
+
   100%{
-    fill:#F8C3CD;
+    fill: #A7A987;
   }
 }
 
-.st1{
+.st1 {
+  fill: #F9F9F7;
   animation: st1-color-change 6s infinite;
 }
+
 @keyframes st1-color-change {
   0%{
-    fill:#A8D8B9;
-    stroke:#A8D8B9;
+    fill: #F9F9F7;
   }
-  33%{
-    fill:#81C7D4;
-    stroke:#81C7D4;
+
+  24%{
+    fill: #F9F9F7;
   }
-  66%{
-    fill:#FFF;
-    stroke:#FFF;
+
+
+  25%{
+    fill:#E6A0C4;
+    /* stroke:#81C7D4; */
   }
+
+  49%{
+    fill:#E6A0C4;
+    /* stroke:#81C7D4; */
+  }
+
+  50%{
+    fill:#7294D4;
+    /* stroke:#FFF; */
+  }
+
+  74%{
+    fill:#7294D4;
+    /* stroke:#FFF; */
+  }
+
+  75%{
+    fill:#E9EEDF;
+    /* stroke:#A8D8B9; */
+  }
+
+  99%{
+    fill:#E9EEDF;
+    /* stroke:#A8D8B9; */
+  }
+
   100%{
-    fill:#A8D8B9;
-    stroke:#A8D8B9;
+    fill: #F9F9F7;
   }
 }
-.main-container{
-  font-size: 120px;
-  width:100%;
-  height:auto;
-  text-align: center;
-  color:#2EA9DF;
+
+.st0 {
+  fill: #C6B4AF;
+  animation: st0-color-change 6s infinite;
 }
 
-.inner-text:hover{
-  color:#B481BB;}
-
-  .st4{
-    animation: st4-color-change 6s infinite;
-  }
-  @keyframes st4-color-change {
-    0%{
-      fill:#F8C3CD;
-    }
-    33%{
-      fill:#E6A0C4;;
-    }
-    66%{
-      fill:#FFF;
-    }
-    100%{
-      fill:#F8C3CD;
-    }
+@keyframes st0-color-change {
+  0%{
+    fill: #C6B4AF;
   }
 
-  .st5{
-    animation: st1-color-change 6s infinite;
+  24%{
+    fill: #C6B4AF;
   }
-  @keyframes st5-color-change {
-    0%{
-      fill:#A8D8B9;
-      stroke:#A8D8B9;
-    }
-    33%{
-      fill:#81C7D4;
-      stroke:#81C7D4;
-    }
-    66%{
-      fill:#FFF;
-      stroke:#FFF;
-    }
-    100%{
-      fill:#A8D8B9;
-      stroke:#A8D8B9;
-    }
+
+
+  25%{
+    fill:#C6CDF7;
+    /* stroke:#81C7D4; */
   }
+
+  49%{
+    fill:#C6CDF7;
+    /* stroke:#81C7D4; */
+  }
+
+  50%{
+    fill:#E6A0C4;
+    /* stroke:#FFF; */
+  }
+
+  74%{
+    fill:#E6A0C4;
+    /* stroke:#FFF; */
+  }
+
+  75%{
+    fill:#6E848A;
+    /* stroke:#A8D8B9; */
+  }
+
+  99%{
+    fill:#6E848A;
+    /* stroke:#A8D8B9; */
+  }
+
+  100%{
+    fill: #C6B4AF;
+  }
+}
