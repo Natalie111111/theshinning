@@ -1,0 +1,99 @@
+body {
+
+  align-items: center;
+  margin: 0;
+}
+
+svg ｛
+width:100%;
+
+｝
+.st2{
+  animation: st2-color-change 6s infinite;
+}
+@keyframes st2-color-change {
+  0%{
+    fill:#F8C3CD;
+  }
+  33%{
+    fill:#E6A0C4;;
+  }
+  66%{
+    fill:#FFF;
+  }
+  100%{
+    fill:#F8C3CD;
+  }
+}
+
+.st1{
+  animation: st1-color-change 6s infinite;
+}
+@keyframes st1-color-change {
+  0%{
+    fill:#A8D8B9;
+    stroke:#A8D8B9;
+  }
+  33%{
+    fill:#81C7D4;
+    stroke:#81C7D4;
+  }
+  66%{
+    fill:#FFF;
+    stroke:#FFF;
+  }
+  100%{
+    fill:#A8D8B9;
+    stroke:#A8D8B9;
+  }
+}
+.main-container{
+  font-size: 120px;
+  width:100%;
+  height:auto;
+  text-align: center;
+  color:#2EA9DF;
+}
+
+.inner-text:hover{
+  color:#B481BB;}
+
+  .st4{
+    animation: st4-color-change 6s infinite;
+  }
+  @keyframes st4-color-change {
+    0%{
+      fill:#F8C3CD;
+    }
+    33%{
+      fill:#E6A0C4;;
+    }
+    66%{
+      fill:#FFF;
+    }
+    100%{
+      fill:#F8C3CD;
+    }
+  }
+
+  .st5{
+    animation: st1-color-change 6s infinite;
+  }
+  @keyframes st5-color-change {
+    0%{
+      fill:#A8D8B9;
+      stroke:#A8D8B9;
+    }
+    33%{
+      fill:#81C7D4;
+      stroke:#81C7D4;
+    }
+    66%{
+      fill:#FFF;
+      stroke:#FFF;
+    }
+    100%{
+      fill:#A8D8B9;
+      stroke:#A8D8B9;
+    }
+  }
